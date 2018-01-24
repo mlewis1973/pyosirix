@@ -182,7 +182,7 @@ PyDoc_STRVAR(BrowserController_doc,
 			 "Example Usage:\n"
 			 "    >>> import osirix\n"
 			 "    >>> bc = osirix.currentBrowser()\n"
-			 "    >>> print bc.databaseSelection\n"
+			 "    >>> print bc.databaseSelection()\n"
 			 );
 
 PyTypeObject pyBrowserControllerType =
