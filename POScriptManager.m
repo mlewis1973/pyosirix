@@ -454,7 +454,7 @@ NSString * const POScriptManagerErrorDomain = @"com.InstituteOfCancerResearch.py
                     @"viewerController = osirix.frontmostViewer()",
                     @"pix = viewerController.curDCM()",
                     @"dcm = dicom.read_file(pix.sourceFile)",
-                    @"osirix.runAlertPanel('Patient Name', information = dcm.PatientName, defaultButton = 'OK')"];
+                    @"osirix.runAlertPanel('Patient Name', informativeText = dcm.PatientName, defaultButton = 'OK')"];
     }
     return template;
 }
